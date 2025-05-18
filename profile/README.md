@@ -20,13 +20,13 @@ Bu organizasyon altında, **Yoklama Sistemi** ve **Akıllı Kilit Sistemi** baş
 ### 🔍 Projelerimiz
 
 * [Yoklama Sistemi](#yoklama-sistemi)
-* [Akıllı Kilit Sistemi](akıllı-kilit-ve-laboratuvar-erişim-sistemi)
+* [Akıllı Kilit Sistemi](#akıllı-kilit-ve-laboratuvar-erişim-sistemi)
 
 ---
 
 ### 📞 İletişim
 
-* **E-posta:** [teamc16.info@gmail.com](teamc16.info@gmail.com)
+* **E-posta:** [teamc16.info@gmail.com](mailto:teamc16.info@gmail.com)
 * **LinkedIn:** [TeamC16](https://www.linkedin.com/company/teamc16)
 
 ---
@@ -52,7 +52,7 @@ Bu sistem sayesinde hem yöneticiler hem de öğrenciler için erişim süreçle
 
 ## 📦 Projenin Repoları
 
-### 1. [`BAP100-flutter-app`](https://github.com/KilitSistemi/BAP100-flutter-app) (Private)
+### 1. [`KilitSistemi-flutter-app`](https://github.com/Team-C16/KilitSistemi-flutter-app) (Private)
 Mobil uygulama Flutter ile geliştirilmiştir. Öğrenciler bu uygulama üzerinden randevu alabilir, QR kod oluşturarak laboratuvara giriş yapabilir ve bildirimler alabilir.
 
 - 📱 Platform: Android & iOS
@@ -61,7 +61,7 @@ Mobil uygulama Flutter ile geliştirilmiştir. Öğrenciler bu uygulama üzerind
 
 ---
 
-### 2. [`BAP100-node`](https://github.com/KilitSistemi/BAP100-node) (Private)
+### 2. [`KilitSistemi-node`](https://github.com/Team-C16/KilitSistemi-node) (Private)
 Sistemin merkezi web sunucusudur. Kimlik doğrulama, randevu oluşturma, kullanıcı yönetimi ve cihazlara gönderilecek token işlemleri burada gerçekleşir.
 
 - 🌐 Teknolojiler: Node.js(22.2.0), Express, EJS
@@ -70,7 +70,7 @@ Sistemin merkezi web sunucusudur. Kimlik doğrulama, randevu oluşturma, kullan�
 
 ---
 
-### 3. [`BAP100-donanim`](https://github.com/KilitSistemi/BAP100-donanim) (Public)
+### 3. [`KilitSistemi-donanim`](https://github.com/Team-C16/KilitSistemi-donanim) (Public)
 Fiziksel kilit sisteminin kontrolünden sorumlu olan donanım tarafının kaynak kodlarını içerir. STM32 mikrodenetleyici ve ILI9341 ekranla birlikte çalışır.
 
 - 🧠 Kontrolcü: Raspberry, ESP32, Arduino
@@ -79,7 +79,7 @@ Fiziksel kilit sisteminin kontrolünden sorumlu olan donanım tarafının kaynak
 
 ---
 
-### 4. [`BAP100-nodeForRaspberry`](https://github.com/KilitSistemi/BAP100-nodeForRaspberry) (Private)
+### 4. [`KilitSistemi-nodeForRaspberry`](https://github.com/Team-C16/KilitSistemi-nodeForRaspberry) (Private)
 Raspberry Pi üzerinde çalışan, **lokal iletişimden sorumlu** Node.js uygulamasıdır. Bu uygulama, merkezi sunucudan aldığı token ile QR kod üretir ve GPIO üzerinden kilit tetikleyebilir.
 
 - 🍓 Platform: Raspberry Pi
@@ -88,7 +88,7 @@ Raspberry Pi üzerinde çalışan, **lokal iletişimden sorumlu** Node.js uygula
 
 ---
 
-### 5. [`BAP100-veritabani`](https://github.com/KilitSistemi/BAP100-veritabani) (Private)
+### 5. [`KilitSistemi-veritabani`](https://github.com/Team-C16/KilitSistemi-veritabani) (Private)
 Tüm sistemin veri altyapısını içerir. Veritabanı şemaları, tablolar, ilişki yapıları ve örnek veriler burada bulunur.
 
 - 🗃️ Veritabanı: MySQL (8.0.36)
@@ -97,7 +97,7 @@ Tüm sistemin veri altyapısını içerir. Veritabanı şemaları, tablolar, ili
 
 ---
 
-### 6. [`BAP100-DevOPS`](https://github.com/KilitSistemi/BAP100-DevOPS) (Private)
+### 6. [`KilitSistemi-DevOPS`](https://github.com/Team-C16/KilitSistemi-DevOPS) (Private)
 CI/CD süreçlerini, Docker container, Kubernetes yapılandırmalarını ve otomatik dağıtım betiklerini içerir.
 
 - 🐳 Dockerfile yapılandırmaları
@@ -123,7 +123,7 @@ Sistem aşağıdaki bileşenlerden oluşmaktadır:
 ##
 
 
-# 📌 Yoklama Sistemi
+# 📌Yoklama Sistemi
 
 Bu proje, İstanbul Sabahattin Zaim Üniversitesi tarafından desteklenen bir **BAP100** projesidir.
 
@@ -138,7 +138,7 @@ Bu Sistem, sınıflarda yoklama işlemlerinin daha hızlı, güvenli ve doğru b
 
 ## 📦 Projenin Repoları
 
-### 1. [`Hackathon-frontend`](https://github.com/KilitSistemi/Hackathon-frontend) (Private)
+### 1. [`YoklamaSistemi-frontend`](https://github.com/Team-C16/YoklamaSistemi-frontend) (Private)
 
 React ile geliştirilmiş web tabanlı arayüzdür. Öğretmenler bu uygulama üzerinden ders oluşturabilir, yoklama başlatabilir ve öğrenci katılımlarını takip edebilir.
 
@@ -151,7 +151,7 @@ React ile geliştirilmiş web tabanlı arayüzdür. Öğretmenler bu uygulama ü
 
 ---
 
-### 2. [`Hackathon-flutter`](https://github.com/KilitSistemi/Hackathon-flutter) (Private)
+### 2. [`YoklamaSistemi-flutter`](https://github.com/Team-C16/YoklamaSistemi-flutter) (Private)
 
 Flutter ile geliştirilmiş mobil uygulamadır. Öğrenciler bu uygulama üzerinden derse katılım sağlayabilir ve yoklamalarını kontrol edebilir.
 
@@ -165,7 +165,7 @@ Flutter ile geliştirilmiş mobil uygulamadır. Öğrenciler bu uygulama üzerin
 
 ---
 
-### 3. [`Hackathon-backend`](https://github.com/KilitSistemi/Hackathon-backend) (Private)
+### 3. [`YoklamaSistemi-backend`](https://github.com/Team-C16/YoklamaSistemi-backend) (Private)
 
 Node.js ile geliştirilmiş backend servisidir. Veritabanı işlemleri, kimlik doğrulama ve yoklama işlemlerinin merkezi sunucusudur.
 
@@ -180,7 +180,7 @@ Node.js ile geliştirilmiş backend servisidir. Veritabanı işlemleri, kimlik d
 
 ---
 
-### 4. [`Hackathon-Donanim`](https://github.com/KilitSistemi/Hackathon-Donanim) (Private)
+### 4. [`YoklamaSistemi-Donanim`](https://github.com/Team-C16/YoklamaSistemi-Donanim) (Private)
 
 Kamera entegrasyonu ve sınıf sayım algoritmalarını içeren donanım katmanıdır. Yoklama sırasında sınıftaki kişi sayısını analiz eder. Ayrıca Bluetooth entegrasyon kodlarını da içerir.
 
