@@ -1,12 +1,45 @@
+# 🚀 Takımımız ve Projelerimiz
+
+Bu organizasyon altında, **Yoklama Sistemi** ve **Akıllı Kilit Sistemi** başta olmak üzere çeşitli IoT tabanlı projeler geliştiren bir takımız. 
+
+---
+
+## 👥 Takım Üyeleri
+
+| İsim                                   | Görev               | GitHub Profili                          | LinkedIn Profili                          |
+| -------------------------------------- | ------------------- | --------------------------------------- | --------------------------------------- |
+| Kerem Yavuz | Backend Developer   | [GitHub](https://github.com/Kerem-Yavuz) | [LinkedIn](https://www.linkedin.com/in/kerem-yavuz-yake/) |
+| Hasan Arı | DevOPS Engineer  | [GitHub](https://github.com/HasanAriii) | [LinkedIn](https://www.linkedin.com/in/hasan-ar%C4%B1-5401932a1/) |
+| Selim Can Aydın | Frontend Developer    | [GitHub](https://github.com/scana1405) | [LinkedIn](https://www.linkedin.com/in/selimcanaydin/) |
+| Enes Halit | Mobile Developer    | [GitHub](https://github.com/Enes830) | [LinkedIn](https://www.linkedin.com/in/enes-halit-4361071a8/) |
+| Abdulrahman Haffaroğlu | Hardware/AI Specialist | [GitHub](https://github.com/AbdulrahmanHaffaroglu) | [LinkedIn](https://www.linkedin.com/in/abdulrahman-haffar-885201365/) |
+
+
+---
+
+### 🔍 Projelerimiz
+
+* [Yoklama Sistemi](#yoklama-sistemi)
+* [Akıllı Kilit Sistemi](akıllı-kilit-ve-laboratuvar-erişim-sistemi)
+
+---
+
+### 📞 İletişim
+
+* **E-posta:** [teamc16.info@gmail.com](teamc16.info@gmail.com)
+* **LinkedIn:** [TeamC16](https://www.linkedin.com/company/teamc16)
+
+---
+
 # 🔐Akıllı Kilit ve Laboratuvar Erişim Sistemi
 
-Bu GitHub organizasyonu, İstanbul Sabahattin Zaim Üniversitesi tarafından desteklenen **BAP100** projesi kapsamında geliştirilen **Akıllı Kilit ve Laboratuvar Erişim Sistemi**ni kapsamaktadır. 
+Bu proje, İstanbul Sabahattin Zaim Üniversitesi tarafından desteklenen bir **BAP100** projesidir.
 
 ## 📌 Proje Tanımı
 
 Üniversitelerde laboratuvar, atölye ve çalışma alanları genellikle fiziksel anahtarlarla veya manuel kontrolle açılıp kapatılmaktadır. Bu durum, erişimlerin denetlenememesi, güvenliğin zayıf olması ve kaynakların verimli kullanılmaması gibi sorunlara yol açmaktadır.
 
-**BAP100 Akıllı Kilit Sistemi**, bu problemi çözmek amacıyla geliştirilen bütünleşik bir yazılım ve donanım çözümüdür. Projenin temel hedefleri şunlardır:
+**Akıllı Kilit Sistemi**, bu problemi çözmek amacıyla geliştirilen bütünleşik bir yazılım ve donanım çözümüdür. Projenin temel hedefleri şunlardır:
 
 - 🎯 Öğrencilerin ve personelin **randevu bazlı** olarak alanlara erişmesini sağlamak
 - 🧠 **QR kod ve kimlik doğrulama** sistemleri ile güvenli geçişler oluşturmak
@@ -17,7 +50,7 @@ Bu sistem sayesinde hem yöneticiler hem de öğrenciler için erişim süreçle
 
 ---
 
-## 📦 Organizasyondaki Depolar
+## 📦 Projenin Repoları
 
 ### 1. [`BAP100-flutter-app`](https://github.com/KilitSistemi/BAP100-flutter-app) (Private)
 Mobil uygulama Flutter ile geliştirilmiştir. Öğrenciler bu uygulama üzerinden randevu alabilir, QR kod oluşturarak laboratuvara giriş yapabilir ve bildirimler alabilir.
@@ -83,3 +116,91 @@ Sistem aşağıdaki bileşenlerden oluşmaktadır:
                            ↓    [Node For Raspberry] ----┘
                            ↓        ↓↑
                   [Raspberry veya diğer denetleyiciler]
+```
+
+---
+
+##
+
+
+# 📌 Yoklama Sistemi
+
+Bu proje, İstanbul Sabahattin Zaim Üniversitesi tarafından desteklenen bir **BAP100** projesidir.
+
+Bu Sistem, sınıflarda yoklama işlemlerinin daha hızlı, güvenli ve doğru bir şekilde yapılabilmesi amacıyla geliştirilen bütünleşik bir yazılım ve donanım çözümünü kapsamaktadır. Proje dört ana bileşenden oluşmaktadır:
+
+* Web tabanlı yoklama arayüzü (React)
+* Mobil uygulama (Flutter)
+* Merkezi sunucu (Node.js, MySQL)
+* Donanım katmanı (Kamera Entegrasyonu)
+
+---
+
+## 📦 Projenin Repoları
+
+### 1. [`Hackathon-frontend`](https://github.com/KilitSistemi/Hackathon-frontend) (Private)
+
+React ile geliştirilmiş web tabanlı arayüzdür. Öğretmenler bu uygulama üzerinden ders oluşturabilir, yoklama başlatabilir ve öğrenci katılımlarını takip edebilir.
+
+* 🌐 Teknolojiler: React, Axios
+* ✏️ Özellikler:
+
+  * Ders oluşturma ve yoklama başlatma
+  * Canlı katılım takibi
+  * Geçmiş yoklama kayıtlarının görüntülenmesi
+
+---
+
+### 2. [`Hackathon-flutter`](https://github.com/KilitSistemi/Hackathon-flutter) (Private)
+
+Flutter ile geliştirilmiş mobil uygulamadır. Öğrenciler bu uygulama üzerinden derse katılım sağlayabilir ve yoklamalarını kontrol edebilir.
+
+* 📱 Platform: Android & iOS
+* 🛠️ Teknolojiler: Flutter, Dart
+* 📌 Özellikler:
+
+  * Derse katılım sağlama
+  * Geçmiş yoklama kayıtlarını görüntüleme
+  * Bildirim sistemi
+
+---
+
+### 3. [`Hackathon-backend`](https://github.com/KilitSistemi/Hackathon-backend) (Private)
+
+Node.js ile geliştirilmiş backend servisidir. Veritabanı işlemleri, kimlik doğrulama ve yoklama işlemlerinin merkezi sunucusudur.
+
+* 🌐 Teknolojiler: Node.js, Express, MySQL
+* 🔐 JWT tabanlı kimlik doğrulama
+* 🗃️ Veritabanı: MySQL
+* 🔄 API servisleri:
+
+  * Yoklama oluşturma
+  * Katılımcı doğrulama
+  * Geçmiş kayıtların çekilmesi
+
+---
+
+### 4. [`Hackathon-Donanim`](https://github.com/KilitSistemi/Hackathon-Donanim) (Private)
+
+Kamera entegrasyonu ve sınıf sayım algoritmalarını içeren donanım katmanıdır. Yoklama sırasında sınıftaki kişi sayısını analiz eder. Ayrıca Bluetooth entegrasyon kodlarını da içerir.
+
+* 🧠 Donanım: Raspberry Pi, Kamera Modülü
+* 📷 Kişi sayımı algoritmaları
+* 🌐 API entegrasyonu ile verilerin merkeze iletilmesi
+
+---
+
+## 🧩 Genel Sistem Mimarisi
+
+Sistem aşağıdaki bileşenlerden oluşmaktadır:
+
+```txt
+[Donanım (Kamera)] ←→ [Backend API] ←→ [Veritabanı]
+                       ↑         ↑
+                       |         |
+            [Mobil Uygulama]  [Web Arayüzü] 
+```
+
+Web arayüzü ve mobil uygulama, merkezi backend sunucusuna bağlı olarak yoklama işlemlerini gerçekleştirir. Donanım katmanı ise kamera verilerini analiz ederek sınıftaki kişi sayısını belirler ve merkeze iletir.
+
+
